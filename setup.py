@@ -28,7 +28,7 @@ setup(
     platforms='any',
     install_requires=[
         'Flask>=0.3',
-        'python-openid>=2.0'
+        'python3-openid'
     ],
     classifiers=[
         'Development Status :: 4 - Beta',
@@ -39,5 +39,6 @@ setup(
         'Programming Language :: Python',
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
         'Topic :: Software Development :: Libraries :: Python Modules'
-    ]
+    ],
+    use_2to3=True
 )

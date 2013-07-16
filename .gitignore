@@ -5,3 +5,6 @@ env
 dist
 docs/_build
 *.egg-info
+build/
+*.swp
+*.un~
